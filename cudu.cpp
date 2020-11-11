@@ -46,7 +46,7 @@ unsigned cudu::max_threads_per_block()
 cudu::Workload cudu::Workload::for_jobs(const unsigned nr_jobs)
 {
     Workload workload;
-    workload.nr_threads = max_threads_per_block() / 2;
+    workload.nr_threads = max_threads_per_block();
     workload.nr_blocks = unsigned(std::ceil(float(nr_jobs) / workload.nr_threads));
     return workload;
 }

@@ -1,0 +1,52 @@
+{
+    "debug": false,
+    "three_mirrors": true,
+    "mirror_internal_angle_degrees": 60,
+    "mirror_bend_angle_degrees": 3,
+    "mirror_albedo": 0.95,
+    "background_radiance": 1.1,
+    "background_texture_path": "textures/nebula.jpg",
+    "background_texture_scale": 10,
+    "background_texture_offset": [0.4, 0.7],
+    "background_texture_rotation_degrees": 0,
+    "medium_scattering_coefficient": 0.05,
+    "medium_luminance_threshold": 0.5,
+    "camera_field_of_view_degrees": 60,
+    "camera_position_radius": 16,
+    "camera_position_polar_angle_degrees": -0.01,
+    "camera_position_azimuth_angle_degrees": 0,
+    "stratifier_resolution": 4,
+    "stratifier_rng_seed": 0,
+    "nr_render_iterations": 1024,
+    "max_trace_depth": 100, 
+    "image_width": 480,
+    "image_height": 480,
+    "animation_enabled": true,
+    "animation_fps": 60,
+    "animation_keyframes": [
+        {
+            "duration_seconds": 10,
+            "background_texture_offset": [0.4, 0.4],
+            "medium_scattering_coefficient": 0.5,
+            "mirror_bend_angle_degrees": 3.5
+        },
+        {
+            "duration_seconds": 10,
+            "background_texture_offset": [0.7, 0.4],
+            "medium_scattering_coefficient": 0.05,
+            "mirror_bend_angle_degrees": 4
+        },
+        {
+            "duration_seconds": 10,
+            "background_texture_offset": [0.7, 0.7],
+            "medium_scattering_coefficient": 0.1,
+            "mirror_bend_angle_degrees": 3.5
+        },
+        {
+            "duration_seconds": 10,
+            "background_texture_offset": [0.4, 0.7],
+            "medium_scattering_coefficient": 0.05,
+            "mirror_bend_angle_degrees": 3
+        }
+    ]
+}

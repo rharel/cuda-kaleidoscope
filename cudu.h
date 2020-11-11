@@ -776,7 +776,7 @@ namespace cudu
             {
             }
 
-            __device__ const Shape<rank>& shape() const
+            __host__ __device__ const Shape<rank>& shape() const
             {
                 return m_shape;
             }

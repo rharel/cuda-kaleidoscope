@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cuda-kaleidoscope", "cuda-kaleidoscope.vcxproj", "{BF046D1F-E6F0-4A1A-9C54-2DC78DA5983F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF046D1F-E6F0-4A1A-9C54-2DC78DA5983F}.Debug|x64.ActiveCfg = Debug|x64
+		{BF046D1F-E6F0-4A1A-9C54-2DC78DA5983F}.Debug|x64.Build.0 = Debug|x64
+		{BF046D1F-E6F0-4A1A-9C54-2DC78DA5983F}.Release|x64.ActiveCfg = Release|x64
+		{BF046D1F-E6F0-4A1A-9C54-2DC78DA5983F}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1A7CE75D-D348-4E70-B32F-C2D5D0FDE586}
+	EndGlobalSection
+EndGlobal
