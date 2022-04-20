@@ -1,0 +1,7 @@
+﻿---
+AlignAfterOpenBracket: AlwaysBreak
+AlwaysBreakTemplateDeclarations: Yes
+BinPackArguments: false
+BinPackParameters: false
+FixNamespaceComments: true
+PointerAlignment: Middle
